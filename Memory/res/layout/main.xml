@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="wrap_content"
+	android:layout_width="fill_parent"
+	android:background="@color/background"
+	android:orientation="horizontal" 	
+	android:padding="30dip" >
+	<LinearLayout
+		android:layout_gravity="top"
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent" 
+		android:orientation="vertical" >
+	<ScrollView
+		android:id="@+id/welcome_title"
+		android:layout_gravity="center_horizontal"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:layout_marginBottom="25dip"
+		android:text="@string/app_name"
+		android:textSize="24.5sp" />
+	<TextView
+		android:id="@+id/countries"
+		android:layout_gravity="left"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:layout_marginBottom="25dip"
+		android:layout_marginLeft="80dip"
+		android:text="@string/countries"
+		android:textColor = "@color/fontcolor2"
+		android:textSize="20.5sp" />
+	<TableLayout 
+ 		xmlns:android="http://schemas.android.com/apk/res/android"
+   		android:id="@+id/keypad_q"
+   		android:orientation="vertical"
+  	 	android:layout_width="wrap_content"
+   		android:layout_height="wrap_content"
+   		android:stretchColumns="*">
+   		<TableRow>
+      		<Button 
+      			android:id="@+id/ctry1"
+         		android:text=" ">
+      		</Button>
+     		<Button 
+     			android:id="@+id/ctry2"
+         		android:text=" ">
+      		</Button>
+      		<Button 
+      			android:id="@+id/ctry3"
+         		android:text=" ">
+      		</Button>
+   		</TableRow>
+   		<TableRow>
+      		<Button 
+      			android:id="@+id/ctry4"
+         		android:text=" ">
+      		</Button>
+      		<Button 
+      			android:id="@+id/ctry5"
+         		android:text=" ">
+      		</Button>
+      		<Button 
+      			android:id="@+id/ctry6"
+         		android:text=" ">
+      		</Button>
+   		</TableRow>
+   		<TableRow>
+      		<Button 
+      			android:id="@+id/ctry7"
+         		android:text=" ">
+      		</Button>
+     	 	<Button 
+     	 		android:id="@+id/ctry8"
+         		android:text=" ">
+      		</Button>
+      		<Button 
+      			android:id="@+id/ctry9"
+         		android:text=" ">
+      		</Button>
+   		</TableRow>
+   		<TableRow>
+      		<Button 
+      			android:id="@+id/ctry10"
+         		android:text=" ">
+      		</Button>
+      		<Button 
+      			android:id="@+id/ctry11"
+         		android:text=" ">
+      		</Button>
+      		<Button 
+      			android:id="@+id/ctry12"
+         		android:text=" ">
+      		</Button>
+   		</TableRow>
+	</TableLayout>
+	<TextView
+		android:id="@+id/capitals"
+		android:layout_gravity="left"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:layout_marginTop="25dip"
+		android:layout_marginBottom="25dip"
+		android:layout_marginLeft="90dip"
+		android:text="@string/capitals"
+		android:textColor = "@color/fontcolor2"
+		android:textSize="20.5sp" />
+	<TableLayout 
+ 		xmlns:android="http://schemas.android.com/apk/res/android"
+   		android:id="@+id/keypad_a"
+  	 	android:orientation="vertical"
+   		android:layout_width="wrap_content"
+   		android:layout_height="wrap_content"
+   		android:stretchColumns="*">
+   		<TableRow>
+      		<Button 
+      			android:id="@+id/cap1"
+         		android:text=" ">
+      		</Button>
+      		<Button 
+   				android:id="@+id/cap2"
+         		android:text=" ">
+      		</Button>
+      		<Button 
+      			android:id="@+id/cap3"
+         		android:text=" ">
+      		</Button>
+   		</TableRow>
+   		<TableRow>
+      		<Button 
+      			android:id="@+id/cap4"
+         		android:text=" ">
+      		</Button>
+      		<Button 
+      			android:id="@+id/cap5"
+         		android:text=" ">
+     	 	</Button>
+      		<Button 
+      			android:id="@+id/cap6"
+         		android:text=" ">
+      		</Button>
+   		</TableRow>
+   		<TableRow>
+      		<Button 
+      			android:id="@+id/cap7"
+         		android:text=" ">
+      		</Button>
+      		<Button 
+      			android:id="@+id/cap8"
+         		android:text=" ">
+      		</Button>
+      		<Button 
+      			android:id="@+id/cap9"
+         		android:text=" ">
+      		</Button>
+   		</TableRow>
+   		<TableRow>
+      		<Button 
+      			android:id="@+id/cap10"
+         		android:text=" ">
+      		</Button>
+      		<Button 
+      			android:id="@+id/cap11"
+         		android:text=" ">
+      		</Button>
+      		<Button 
+      			android:id="@+id/cap12"
+         		android:text=" ">
+      		</Button>
+   		</TableRow>
+	</TableLayout>
+	</LinearLayout>
+</ScrollView>

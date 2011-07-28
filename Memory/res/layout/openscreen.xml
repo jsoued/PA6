@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/background"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+	<TextView  
+		android:id="@+id/welcome_title"
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content" 
+    	android:textColor = "@color/fontcolor"
+    	android:textSize = "30sp"
+    	android:layout_marginLeft = "100dip"
+    	android:layout_marginTop = "100dip"
+    	android:layout_marginBottom = "20dip"
+		android:text="@string/app_name" />
+	<Button 
+		android:id="@+id/start" 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below = "@+id/welcome_title"
+		android:text="@string/main_button" />
+</LinearLayout>
